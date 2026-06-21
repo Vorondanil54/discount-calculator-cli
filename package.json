@@ -1,0 +1,23 @@
+{
+  "name": "discount-calculator-cli",
+  "version": "1.0.0",
+  "description": "This program calculates discount based on number and discount percent input.",
+  "license": "ISC",
+  "author": "Vorondanil54",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dccli": "index.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.5.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0"
+  }
+}
